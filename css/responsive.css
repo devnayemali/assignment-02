@@ -19,11 +19,11 @@
     }
 
     .play-img-02.p-absolute {
-        max-width: 230px;
+        max-width: 145px;
     }
 
     .play-img-04.p-absolute {
-        max-width: 200px;
+        max-width: 145px;
     }
     .banner-left h2 {
         font-size: 80px;
@@ -43,6 +43,17 @@
     }
     .banner-wrap {
         padding-bottom: 50px;
+    }
+    .play-wrap {
+        gap: 50px 50px;
+    }
+    .play-img-wrap2.p-relative {
+        padding-bottom: 50px;
+        padding-right: 40px;
+    }
+    .play-img-wrap.p-relative {
+        padding-bottom: 50px;
+        padding-left: 50px;
     }
 }
 
