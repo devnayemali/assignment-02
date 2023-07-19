@@ -15,7 +15,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .game-item-wrap {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
 
     .play-img-02.p-absolute {
@@ -41,6 +41,9 @@
     h2 {
         font-size: 40px;
     }
+    .banner-wrap {
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -63,6 +66,13 @@
 
     .banner-left h2 {
         font-size: 80px;
+    }
+
+    .btn {
+        height: 50px;
+        padding: 0px 20px;
+        line-height: 55px;
+        font-size: 16px;
     }
 
 }
@@ -106,6 +116,13 @@
 
     .banner-wrap {
         flex-direction: column-reverse;
+    }
+
+    .btn {
+        height: 50px;
+        padding: 0px 20px;
+        line-height: 55px;
+        font-size: 16px;
     }
 
 }
